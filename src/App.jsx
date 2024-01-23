@@ -14,8 +14,8 @@ function App() {
    <Hero2/>
    <Hero3/>
    <Hero4/>
-   {/*
-   <Footer/> */}
+   
+   <Footer/> 
     </>
   )
 }

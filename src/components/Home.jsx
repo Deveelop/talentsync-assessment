@@ -2,8 +2,8 @@
 const Home = () => {
   return (
     <>
-    <div className=" bg-[url('/attachment.png')] w-[100%] customw:w-[1728px] customw:h-[868px] pt-10 pb-24 flex-col justify-start items-center gap-40 inline-flex">
-    <div className="w-[100%] customw:w-[1472px] px-8 py-4 bg-gray-100 rounded-[100px] border border-gray-300 justify-between items-center inline-flex">
+    <div className=" bg-[url('/attachment.png')] w-[100%] customw:w-[1728px] customw:h-[868px] pt-5 customw:p-10 pb-24 flex-col justify-start items-center gap-40 inline-flex">
+    <header className="w-[100%] fixed z-50 customw:w-[1472px] px-8 py-4 bg-gray-100 rounded-[100px] border border-gray-300 justify-between items-center inline-flex">
         <div className="justify-start items-center gap-2.5 flex">
             <div className="w-[25.38px] h-7 relative">
             <img src="/Group.png" alt="logo"/>
@@ -33,12 +33,12 @@ const Home = () => {
                 <div className="text-white text-base font-semibold font-['Inter'] leading-normal">Sign up for free</div>
             </div>
         </div>
-    </div>
+    </header>
     <div className=" w-[100%] customw:w-[1408px] justify-between items-center inline-flex bg-[#FFFFFF]-500 bg-opacity-0">
-        <div className=" ml-20 flex-col justify-start items-start gap-2 inline-flex">
+        <div className=" p-20 flex-col justify-start items-start gap-2 inline-flex">
             <div className="flex-col justify-start items-start gap-6 flex">
-                <h1 className="w-[100%] customw:w-[780px] text-slate-800 text-[64px] font-semibold leading-[72px]">Uniting the world,        one video call at a time</h1>
-                <p className=" w-[100%] customw:w-[662px] text-gray-500 text-2xl font-normal leading-loose">Experience the future of communication with ClearLink – where crystal-clear video conferencing meets unparalleled simplicity.</p>
+                <h1 className="w-[400px] customw:w-[780px] text-slate-800 customw:text-[64px] text-5xl font-semibold customw:leading-[72px] leading-[52px]">Uniting the world, one video call at a time</h1>
+                <p className=" w-[100%] customw:w-[662px] text-gray-500 text-2xl font-normal customw:leading-loose leading-[32px]">Experience the future of communication with ClearLink – where crystal-clear video conferencing meets unparalleled simplicity.</p>
             </div>
             <div className="justify-start items-center gap-5 inline-flex">
                 <div className="justify-start items-start gap-2 flex">

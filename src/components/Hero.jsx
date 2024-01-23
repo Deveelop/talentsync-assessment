@@ -3,13 +3,13 @@ import React from 'react'
 const Hero = () => {
   return (
     <div>
-      <div className=" w-[100%] customw:w-[1728px] customw:h-[983px] px-20 py-24 bg-white flex-col justify-start items-start gap-5 inline-flex">
+      <div className=" w-[100%] customw:w-[1728px] customw:h-[983px] customw:px-0 px-20 py-24 bg-white flex-col justify-start items-start gap-5 inline-flex">
     <div className="flex-col justify-start items-start gap-5 flex">
         <div className="self-stretch h-[100px] flex-col justify-start items-center gap-3 flex">
             <div className="self-stretch text-blue-700 text-lg font-semibold leading-7">The ClearLink Advantage</div>
-            <div className="w-[1168px] text-slate-800 text-5xl font-semibold leading-[60px]">Why choose ClearLink?</div>
+            <h1 className="w-[1168px] text-slate-800 text-3xl font-semibold leading-[60px]">Why choose ClearLink?</h1>
         </div>
-        <div className="w-[842px] text-gray-500 text-2xl font-normal  leading-loose">In a world where connection is everything, ClearLink takes the lead. Our cutting-edge video conferencing app offers:</div>
+        <div className=" w-[700px] customw:w-[842px] text-gray-500 text-xl font-normal  leading-loose">In a world where connection is everything, ClearLink takes the lead. Our cutting-edge video conferencing app offers:</div>
     </div>
     <div className=" w-[1000px] customw:w-[1408px] justify-between  items-center inline-flex">
         <div className=" w-[800px] h-[488] justify-start items-start gap-5 grid grid-cols-2">
@@ -58,8 +58,8 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        <div className=" w-[544px] h-[527px]  relative origin-top-left">
-        <img className='' src='/Hand-drawn arrow.png' alt='avatar'/>
+        <div className=" w-[544px] h-[300px] justify-end flex  relative origin-top-left">
+        <img className=' absolute -top-56 bottom-56' src='/Hand-drawn arrow.png' alt='avatar'/>
         <img src="/Rectangle 1.png" />
     </div>
     </div>

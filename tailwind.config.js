@@ -10,7 +10,7 @@ export default {
       'md': '768px',
       'lg': '1024px',
       'xl': '1280px',
-      'customw': '1285',
+      'customw': '1440',
     },
     extend: {},
   },
