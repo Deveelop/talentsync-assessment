@@ -3,8 +3,8 @@ import React from 'react'
 const Hero4 = () => {
   return (
     <div>
-      <div className="w-[1728px] h-[697px] px-40 py-24 justify-between items-center inline-flex">
-    <div className="w-[579px] flex-col justify-start items-start gap-10 inline-flex">
+      <div className=" customw:w-[1728px] h-[697px] px-40 py-24 justify-between items-center inline-flex">
+    <div className=" customw:w-[579px] flex-col justify-start items-start gap-10 inline-flex">
         <div className="self-stretch h-[340px] flex-col justify-start items-start gap-8 flex">
             <div className="self-stretch text-gray-900 text-5xl font-semibold font-['Inter'] leading-[60px]">Ready to clear the path to perfect communication?</div>
             <div className="self-stretch h-[188px] pl-4 flex-col justify-start items-start gap-5 flex">
