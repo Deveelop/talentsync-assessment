@@ -20,27 +20,27 @@ const Footer = () => {
                 <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Overview</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Overview</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Features</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Features</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Solutions</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Solutions</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Tutorials</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Tutorials</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Pricing</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Pricing</a>
                         </div>
                     </div>
                 </div>
@@ -50,27 +50,27 @@ const Footer = () => {
                 <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">About us</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">About us</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Careers</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Careers</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Press</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Press</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">News</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">News</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Contact</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -80,27 +80,27 @@ const Footer = () => {
                 <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold leading-7">Blog</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold leading-7">Blog</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Events</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Events</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Help centre</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Help centre</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold leading-7">Tutorials</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold leading-7">Tutorials</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold leading-7">Support</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold leading-7">Support</a>
                         </div>
                     </div>
                 </div>
@@ -110,27 +110,27 @@ const Footer = () => {
                 <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Terms</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Terms</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Privacy</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Privacy</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Cookies</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Cookies</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold leading-7">Licenses</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold leading-7">Licenses</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-2 inline-flex">
                         <div className="justify-center items-center gap-2 flex">
-                            <div className="text-slate-600 text-lg font-semibold  leading-7">Contact</div>
+                            <a href='#' className="text-slate-600 text-lg font-semibold  leading-7">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -138,14 +138,14 @@ const Footer = () => {
             <div className="flex-col justify-start items-start pr-5 gap-4 inline-flex">
                 <div className="self-stretch text-blue-700 text-base font-semibol leading-normal">Get the app</div>
                 <div className="flex-col justify-start items-start gap-4 flex">
-                    <div className="w-[135px] h-10 relative bg-black rounded-[7px] border border-neutral-400">
+                    <a href='#' className="w-[135px] h-10 relative bg-black rounded-[7px] border border-neutral-400">
                         <img src='/Mobile app store badge.png' alt='icon'/>
-                    </div>
-                    <div className="w-[135px] h-10 relative bg-black rounded-[5px] border border-neutral-400">
+                    </a>
+                    <a href='#' className="w-[135px] h-10 relative bg-black rounded-[5px] border border-neutral-400">
                         
                         <img src='/Mobile app store badge (1).png' alt='icon'/>
                         
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -154,28 +154,28 @@ const Footer = () => {
 <div className=" w-[100%] customw:w-[1728px] h-[120px] py-12 bg-gray-50 p-20 ">
     <div className="h-6 flex-col justify-between items-start gap-16 flex">
         <div className="self-stretch justify-between items-center gap-8 inline-flex">
-            <div className="grow shrink basis-0 text-gray-500 text-base font-normal  leading-normal">© 2023 ClearLink. All rights reserved.</div>
+            <div className="grow shrink basis-0 text-gray-500 text-base font-normal  leading-normal">&copy; {new Date().getFullYear()} ClearLink. All rights reserved.</div>
             <div className="justify-start items-center gap-6 flex">
-                <div className="w-6 h-6 justify-center items-center flex">
+                <a href='#' className="w-6 h-6 justify-center items-center flex">
                     <img src='/Social icon.png' alt='icons'/>
-                </div>
-                <div className="w-6 h-6 relative">
+                </a>
+                <a href='#' className="w-6 h-6 relative">
                 <img src='/Social icon (1).png' alt='icons'/>
-                </div>
-                <div className="w-6 h-6 relative">
+                </a>
+                <a href='#' className="w-6 h-6 relative">
                 <img src='/Social icon (2).png' alt='icons'/>
-                </div>
-                <div className="w-6 h-6 pr-[0.01px] justify-center items-center flex">
+                </a>
+                <a href='#' className="w-6 h-6 pr-[0.01px] justify-center items-center flex">
                     <div className="w-6 h-6 relative">
                     <img src='/Social icon (3).png' alt='icons'/>
                     </div>
-                </div>
-                <div className="w-6 h-6 relative">
+                </a>
+                <a href='#' className="w-6 h-6 relative">
                 <img src='/Social icon (4).png' alt='icons'/>
-                </div>
-                <div className="w-6 h-6 py-[3.56px] justify-center items-center flex">
+                </a>
+                <a href='#' className="w-6 h-6 py-[3.56px] justify-center items-center flex">
                 <img src='/Social icon (5).png' alt='icons'/>
-                </div>
+                </a>
             </div>
         </div>
     </div>

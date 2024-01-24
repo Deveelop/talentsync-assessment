@@ -10,7 +10,7 @@ const Hero3 = () => {
                 <div className="self-stretch text-blue-700 text-lg font-semibold font-['Inter'] leading-7">Support</div>
                 <div className="self-stretch text-slate-800 text-5xl font-semibold font-['Inter'] leading-[60px]">FAQs</div>
             </div>
-            <div className="self-stretch customw:w-0 w-[400px]"><span className="text-gray-500  customw:text-2xl font-normal leading-loose">Everything you need to know about the product and billing. Can’t find the answer you’re looking for? Please </span><span className="text-gray-500 text-2xl font-normal font-['Inter'] underline leading-loose">chat to our friendly team</span><span className="text-gray-500 text-2xl font-normal font-['Inter'] leading-loose">.</span></div>
+            <div className="self-stretch customw:w-0 w-[400px]"><span className="text-gray-500  customw:text-2xl font-normal leading-loose">Everything you need to know about the product and billing. Can’t find the answer you’re looking for? Please </span><a href='#' className="text-gray-500 text-2xl font-normal underline leading-loose">chat to our friendly team</a><span className="text-gray-500 text-2xl font-normal font-['Inter'] leading-loose">.</span></div>
         </div>
         <div className=" w-[700px] customw:w-[765px] flex-col justify-start items-center gap-1 inline-flex">
             <div className=" h-[214px] p-8 bg-gray-50 rounded-2xl border border-gray-200 flex-col justify-start items-start flex">

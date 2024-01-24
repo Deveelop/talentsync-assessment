@@ -1,5 +1,23 @@
+import React, { useState } from 'react'; 
 
 const Home = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen1, setIsOpen1] = useState(false);
+    const [isOpen2, setIsOpen2] = useState(false);
+  const options = ['Overview', 'Features', 'Solutions', 'Tutorials', 'Pricing'];
+  const options1 = ['Solutions1', 'Solutions2', 'Solutions3', 'Solution4', 'Solutions4'];
+  const options2 = ['Blog', 'Events', 'Help Center', 'Tutorials', 'Support'];
+
+  const handleClick = () => {
+  setIsOpen(false); 
+  };
+  const handleClick1 = () => {
+  setIsOpen1(false); 
+  };
+  const handleClick2 = () => {
+  setIsOpen2(false); 
+  };
+
   return (
     <>
     <div className=" bg-[url('/attachment.png')] w-[100%] customw:w-[1728px] customw:h-[868px] pt-5 customw:p-10 pb-24 flex-col justify-start items-center gap-40 inline-flex">
@@ -8,30 +26,84 @@ const Home = () => {
             <div className="w-[25.38px] h-7 relative">
             <img src="/Group.png" alt="logo"/>
             </div>
-            <div><span className="text-gray-900 text-2xl font-semibold font-['Inter']">ClearLink</span><span className="text-blue-500 text-2xl font-semibold font-['Inter']">.</span></div>
+            <div><span className="text-gray-900 text-2xl font-semibold ">ClearLink</span><span className="text-blue-500 text-2xl font-semibold font-['Inter']">.</span></div>
         </div>
-        <div className="justify-start items-start gap-10 flex">
-            <div className="justify-start items-center gap-1.5 flex">
-                <div className="text-gray-500 text-lg font-semibold font-['Inter'] leading-7">Products</div>
-                <div className="w-[18px] h-[18px] relative"><img src="/chevron-down.png"/></div>
-            </div>
-            <div className="justify-start items-center gap-1.5 flex">
-                <div className="text-gray-500 text-lg font-semibold font-['Inter'] leading-7">Solutions</div>
-                <div className="w-[18px] h-[18px] relative"><img src="/chevron-down.png"/></div>
-            </div>
-            <div className="justify-start items-center gap-1.5 flex">
-                <div className="text-gray-500 text-lg font-semibold font-['Inter'] leading-7">Resources</div>
-                <div className="w-[18px] h-[18px] relative"><img src="/chevron-down.png"/></div>
-            </div>
-            <div className="text-gray-500 text-lg font-semibold font-['Inter'] leading-7">Pricing</div>
+        <ul  className="justify-start items-start gap-10 flex">
+            <div onClick={() => setIsOpen(!isOpen)} className=" cursor-pointer justify-start items-center gap-1.5 flex">
+                <li className="text-gray-500 text-lg font-semibold font-['Inter'] leading-7">Products</li>
+                <div className="w-[18px] h-[18px] relative">
+                <div className="relative inline-block">
+                <img  src="/chevron-down.png"/>
+      {isOpen && (
+        <div className="absolute z-10 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 py-1"
+        >
+          {options.map((option, index) => (
+            <button
+              key={index}
+              onClick={() => handleClick(option)}
+              className="block w-full px-4 py-2 text-left text-sm font-medium text-gray-700 hover:bg-gray-100"
+            >
+              {option}
+            </button>
+          ))}
         </div>
+      )}
+    </div>
+</div>
+            </div>
+            <div onClick={() => setIsOpen1(!isOpen1)} className=" cursor-pointer justify-start items-center gap-1.5 flex">
+                <li className="text-gray-500 text-lg font-semibold  leading-7">Solutions</li>
+                <div className="w-[18px] h-[18px] relative">
+                <div className="relative inline-block">
+                <img  src="/chevron-down.png"/>
+      {isOpen1 && (
+        <div className="absolute z-10 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 py-1"
+        >
+          {options1.map((option, index) => (
+            <button
+              key={index}
+              onClick={() => handleClick1(options1)}
+              className="block w-full px-4 py-2 text-left text-sm font-medium text-gray-700 hover:bg-gray-100"
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+                </div>
+            </div>
+            <div onClick={() => setIsOpen2(!isOpen2)} className=" cursor-pointer justify-start items-center gap-1.5 flex">
+                <li className="text-gray-500 text-lg font-semibold  leading-7">Resources</li>
+                <div className="w-[18px] h-[18px] relative">
+                <div className="relative inline-block">
+                <img  src="/chevron-down.png"/>
+      {isOpen2 && (
+        <div className="absolute z-10 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 py-1"
+        >
+          {options2.map((option, index) => (
+            <button
+              key={index}
+              onClick={() => handleClick2(options2)}
+              className="block w-full px-4 py-2 text-left text-sm font-medium text-gray-700 hover:bg-gray-100"
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+                </div>
+            </div>
+            <a href='#' className="text-gray-500 text-lg font-semibold leading-7">Pricing</a>
+        </ul>
         <div className="justify-start items-center gap-2 flex">
-            <div className="px-6 py-3.5 bg-white rounded-[100px] shadow border border-gray-400 justify-center items-center gap-1 flex">
+            <button className="px-6 py-3.5 bg-white rounded-[100px] shadow border border-gray-400 justify-center items-center gap-1 flex">
                 <div className="text-gray-900 text-base font-semibold font-['Inter'] leading-normal">Talk to sales</div>
-            </div>
-            <div className="px-6 py-3.5 bg-blue-700 rounded-[100px] shadow justify-center items-center gap-1 flex">
+            </button>
+            <button className="px-6 py-3.5 bg-blue-700 rounded-[100px] shadow justify-center items-center gap-1 flex">
                 <div className="text-white text-base font-semibold font-['Inter'] leading-normal">Sign up for free</div>
-            </div>
+            </button>
         </div>
     </header>
     <div className=" w-[100%] customw:w-[1408px] justify-between items-center inline-flex bg-[#FFFFFF]-500 bg-opacity-0">
@@ -42,9 +114,9 @@ const Home = () => {
             </div>
             <div className="justify-start items-center gap-5 inline-flex">
                 <div className="justify-start items-start gap-2 flex">
-                    <div className="px-7 py-4 bg-blue-700 rounded-[100px] shadow justify-center items-center gap-1 flex">
+                    <button className="px-7 py-4 bg-blue-700 rounded-[100px] shadow justify-center items-center gap-1 flex">
                         <div className="text-white text-lg font-semibold font-['Inter'] leading-7">Start your free trial</div>
-                    </div>
+                    </button>
                 </div>
                 <div className="justify-start items-center gap-3 flex">
                     <div className="w-5 h-5 relative">
@@ -52,7 +124,7 @@ const Home = () => {
                             <img src="/Frame.png" alt="sunstitute"/>
                         </div>
                     </div>
-                    <div className="text-blue-700 text-lg font-semibold font-['Inter'] leading-7">Discover AI assistant</div>
+                    <a href="#" className="text-blue-700 text-lg font-semibold font-['Inter'] leading-7">Discover AI assistant</a>
                 </div>
             </div>
             <div className="justify-start items-center gap-4 inline-flex">
@@ -152,24 +224,24 @@ const Home = () => {
                 </div>
             </div>
             <div className="justify-start items-start gap-4 inline-flex">
-                <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
+                <a href="#" className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
                     <div className="w-5 h-5 relative" ><img src='/microphone.png' alt=''/></div>
-                </div>
-                <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
+                </a>
+                <a href="#" className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
                 <div className="w-5 h-5 relative" ><img src='/video-recorder.png' alt=''/></div>
-                </div>
-                <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
+                </a>
+                <a href="#" className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
                 <div className="w-5 h-5 relative" ><img src='/monitor-01.png' alt=''/></div>
-                </div>
-                <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
+                </a>
+                <a href="#" className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
                 <div className="w-5 h-5 relative" ><img src='/Icon.png' alt=''/></div>
-                </div>
-                <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
+                </a>
+                <a href="#" className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
                 <div className="w-5 h-5 relative" ><img src='/message-text.png' alt=''/></div>
-                </div>
-                <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
+                </a>
+                <a href="#" className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
                 <div className="w-5 h-5 relative" ><img src='/settings-01.png' alt=''/></div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

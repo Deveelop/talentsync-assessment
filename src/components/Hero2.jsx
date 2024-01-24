@@ -50,16 +50,16 @@ const Hero2 = () => {
                     </div>
                 </div>
                 <div className="justify-start items-start gap-8 flex">
-                    <div className="w-14 h-14 bg-white bg-opacity-90 rounded-[28px] border border-blue-100 justify-center items-center gap-3 flex">
+                    <button className="w-14 h-14 bg-white bg-opacity-90 rounded-[28px] border border-blue-100 justify-center items-center gap-3 flex">
                         <div className="w-6 h-6 relative">
                             <img src='/arrow-left.png' alt='arrow icon'/>
                         </div>
-                    </div>
-                    <div className="w-14 h-14 bg-white bg-opacity-90 rounded-[28px] border border-blue-100 justify-center items-center gap-3 flex">
+                    </button>
+                    <button className="w-14 h-14 bg-white bg-opacity-90 rounded-[28px] border border-blue-100 justify-center items-center gap-3 flex">
                         <div className="w-6 h-6 relative">
                             <img src='/arrow-right.png' alt='arrow icon'/>
                         </div>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>

@@ -51,12 +51,12 @@ const Hero4 = () => {
             </div>
         </div>
         <div className="justify-start items-center gap-2 inline-flex">
-            <div className="px-6 py-3.5 bg-white rounded-[100px] shadow border border-gray-400 justify-center items-center gap-1 flex">
+            <button className="px-6 py-3.5 bg-white rounded-[100px] shadow border border-gray-400 justify-center items-center gap-1 flex">
                 <div className="text-gray-900 text-base font-semibold font-['Inter'] leading-normal">Talk to sales</div>
-            </div>
-            <div className="px-6 py-3.5 bg-blue-700 rounded-[100px] shadow justify-center items-center gap-1 flex">
+            </button>
+            <button className="px-6 py-3.5 bg-blue-700 rounded-[100px] shadow justify-center items-center gap-1 flex">
                 <div className="text-white text-base font-semibold leading-normal">Start your free trial</div>
-            </div>
+            </button>
         </div>
     </div>
     <div className=" justify-end items-center flex">
